@@ -1,0 +1,80 @@
+---
+title: "An Interpretable Linear Regression Demo"
+author: "Hendra Bunyamin"
+date: "4/8/2021"
+output: pdf_document
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+We set the __working directory__.
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+setwd("/home/hbunyamin/Projects/interpretable-ml-book/R/")
+```
+     
+Let's load the dataset [@molnar2019].    
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+load("../data/bike.RData")
+```
+     
+We view the first five rows.
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+head(bike)
+```
+We summarize the `bike` dataset as follows:
+```{r warning=FALSE, message=FALSE, highlight=TRUE}
+summary(bike)
+```
+
+We extract the features columns just like in the slides as follows:
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+bike_to_interpreted <- bike[c("cnt", "season", "holiday", "days_since_2011", 
+                         "workingday", "weathersit", "temp", "hum", "windspeed")]
+```
+      
+We summarize the `bike_to_interpreted` dataset.    
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+summary(bike_to_interpreted)
+```
+   
+At last, we create the _interpretable linear model_ that is **linear regression** as follows:
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+lm_bike <- lm(cnt ~ ., data=bike_to_interpreted)
+```
+
+
+We show the details of the linear models as follows:
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+summary(lm_bike)
+```
+
+We probably need to install the `dotwhisker` and `dply` packages. Specifically, with `dotwhisker` we can view the weights of our linear model. Alternatively, we can call `coef-plot.R` function.
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+library(dotwhisker)
+library(dplyr)
+dwplot(lm_bike, 
+       vline = geom_vline(xintercept = 0, colour = "grey50", linetype = 2)) + xlab("Weight estimate")
+```
+
+We can load the following R codes consisting several functions for showing the _interpretability of our linear regression_ model.
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+source("/home/hbunyamin/Projects/interpretable-ml-book/R/utils.R", encoding = "UTF-8")
+source("/home/hbunyamin/Projects/interpretable-ml-book/R/ggplot-theme.R", encoding = "UTF-8")
+source("/home/hbunyamin/Projects/interpretable-ml-book/R/effect-plot.R", encoding = "UTF-8")
+source("/home/hbunyamin/Projects/interpretable-ml-book/R/coef-plot.R", encoding = "UTF-8")
+```
+
+Let's display the **effect plot** of our model. 
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+effect_plot(lm_bike, bike_to_interpreted)
+```
+
+Let's display the **coefficient plot** of our model.
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+coef_plot(lm_bike)
+```
+      
+# References
