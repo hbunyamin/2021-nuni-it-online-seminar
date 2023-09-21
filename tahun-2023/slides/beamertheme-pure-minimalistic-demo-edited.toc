@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Aspect ratio}{3}{0}{1}
+\beamer@sectionintoc {2}{vfilleditems}{4}{0}{2}
+\beamer@sectionintoc {3}{Fonts}{8}{0}{3}
+\beamer@sectionintoc {4}{Color}{10}{0}{4}
+\beamer@sectionintoc {5}{Graphics}{13}{0}{5}
+\beamer@sectionintoc {6}{Footer options}{19}{0}{6}
+\beamer@sectionintoc {7}{Citations}{23}{0}{7}
