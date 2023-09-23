@@ -7,7 +7,7 @@ bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, highlight = TRUE)
 ```
 
 We set the __working directory__.
@@ -77,6 +77,15 @@ Let's display the **coefficient plot** of our model.
 coef_plot(lm_bike)
 ```
       
-      
+Let's load the `cervical` dataset [@molnar2019].    
+```{r message=FALSE, warning=FALSE, highlight=TRUE}
+load("cervical.RData")
+```
+  
+Let us view the first five rows.  
+```{r}
+head(cervical)
+```
+
       
 # References
