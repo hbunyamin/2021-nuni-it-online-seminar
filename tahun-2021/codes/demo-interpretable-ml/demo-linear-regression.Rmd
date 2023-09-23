@@ -93,10 +93,24 @@ We convert the `Biopsy` column into binary values (`1 = Cancer` and `0 = Healthy
 cervical$Biopsy <- ifelse( cervical$Biopsy == "Healthy", 0, 1  )
 ```
 
-Let us model the `cervical` dataset by using logistic regression.
 
 ```{r}
+cervical_to_interpreted <- cervical[c("Hormonal.Contraceptives", "Smokes", "Num.of.pregnancies", "STDs..Number.of.diagnosis", 
+                         "IUD", "Biopsy")]
 
+```
+
+
+Let us model the `cervical_to_interpreted` dataset by using logistic regression.
+
+```{r}
+lr_cervical <- glm(Biopsy ~ ., data=cervical_to_interpreted, family = binomial(link = "logit"))
+```
+
+Let us examine the model's summary.
+
+```{r}
+summary(lr_cervical)
 ```
 
 
