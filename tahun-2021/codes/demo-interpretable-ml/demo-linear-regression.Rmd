@@ -87,5 +87,19 @@ Let us view the first five rows.
 head(cervical)
 ```
 
+We convert the `Biopsy` column into binary values (`1 = Cancer` and `0 = Healthy`).
+
+```{r}
+cervical$Biopsy <- ifelse( cervical$Biopsy == "Healthy", 0, 1  )
+```
+
+Let us model the `cervical` dataset by using logistic regression.
+
+```{r}
+
+```
+
+
+      
       
 # References
