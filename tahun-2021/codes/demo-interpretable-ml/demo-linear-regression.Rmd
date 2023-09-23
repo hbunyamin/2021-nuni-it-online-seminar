@@ -12,12 +12,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 We set the __working directory__.
 ```{r message=FALSE, warning=FALSE, highlight=TRUE}
-setwd("/home/hbunyamin/Projects/interpretable-ml-book/R/")
+setwd("/home/hbunyamin/Projects/2021-nuni-it-online-seminar/tahun-2021/codes/demo-interpretable-ml")
 ```
      
 Let's load the dataset [@molnar2019].    
 ```{r message=FALSE, warning=FALSE, highlight=TRUE}
-load("../data/bike.RData")
+load("bike.RData")
 ```
      
 We view the first five rows.
@@ -61,10 +61,10 @@ dwplot(lm_bike,
 
 We can load the following R codes consisting several functions for showing the _interpretability of our linear regression_ model.
 ```{r message=FALSE, warning=FALSE, highlight=TRUE}
-source("/home/hbunyamin/Projects/interpretable-ml-book/R/utils.R", encoding = "UTF-8")
-source("/home/hbunyamin/Projects/interpretable-ml-book/R/ggplot-theme.R", encoding = "UTF-8")
-source("/home/hbunyamin/Projects/interpretable-ml-book/R/effect-plot.R", encoding = "UTF-8")
-source("/home/hbunyamin/Projects/interpretable-ml-book/R/coef-plot.R", encoding = "UTF-8")
+source("utils.R", encoding = "UTF-8")
+source("ggplot-theme.R", encoding = "UTF-8")
+source("effect-plot.R", encoding = "UTF-8")
+source("coef-plot.R", encoding = "UTF-8")
 ```
 
 Let's display the **effect plot** of our model. 
@@ -76,5 +76,7 @@ Let's display the **coefficient plot** of our model.
 ```{r message=FALSE, warning=FALSE, highlight=TRUE}
 coef_plot(lm_bike)
 ```
+      
+      
       
 # References

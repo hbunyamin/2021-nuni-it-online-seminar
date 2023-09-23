@@ -1,0 +1,75 @@
+\begin{thebibliography}{}
+
+\bibitem[Bunyamin, 2021]{bunyamin2021utilizing}
+Bunyamin, H. (2021).
+\newblock Utilizing indonesian universal language model fine-tuning for text
+  classification.
+\newblock {\em Journal of Information Technology and Computer Science},
+  5(3):325--337.
+
+\bibitem[Bunyamin et~al., 2019]{bunyamin2019topic}
+Bunyamin, H., Heriyanto, Novianti, S., and Sulistiani, L. (2019).
+\newblock Topic clustering and classification on final project reports: a
+  comparison of traditional and modern approaches.
+\newblock {\em IAENG International Journal of Computer Science},
+  46(3):506--511.
+
+\bibitem[Bunyamin and Meyliana, 2021]{Bunyamin_2021}
+Bunyamin, H. and Meyliana (2021).
+\newblock Classical and deep learning time series prediction techniques in the
+  case of indonesian economic growth.
+\newblock {\em IOP Conference Series: Materials Science and Engineering},
+  1077(1):012014.
+
+\bibitem[{Bunyamin} and {Sulistiani}, 2017]{bunyamin2017automatic}
+{Bunyamin}, H. and {Sulistiani}, L. (2017).
+\newblock Automatic topic clustering using latent dirichlet allocation with
+  skip-gram model on final project abstracts.
+\newblock In {\em 2017 21st International Computer Science and Engineering
+  Conference (ICSEC)}, pages 1--5.
+
+\bibitem[Bunyamin. et~al., 2022]{ice-tes22}
+Bunyamin., H., Toba., H., Meyliana., and Wahyudianingsih., R. (2022).
+\newblock Breast cancer histopathological image classification using
+  progressive resizing approach.
+\newblock In {\em Proceedings of the 1st International Conference on Emerging
+  Issues in Technology, Engineering and Science - ICE-TES,}, pages 351--357.
+  INSTICC, SciTePress.
+
+\bibitem[Bunyamin and Tunys, 2016]{bunyamin2016comparison}
+Bunyamin, H. and Tunys, T. (2016).
+\newblock A comparison of retweet prediction approaches: the superiority of
+  random forest learning method.
+\newblock {\em TELKOMNIKA (Telecommunication Computing Electronics and
+  Control)}, 14(3):1052--1058.
+
+\bibitem[Hofmann, 1999]{hofmann1999probabilistic}
+Hofmann, T. (1999).
+\newblock Probabilistic latent semantic indexing.
+\newblock In {\em Proceedings of the 22nd annual international ACM SIGIR
+  conference on Research and development in information retrieval}, pages
+  50--57.
+
+\bibitem[Howard and Ruder, 2018]{howard-ruder-2018-universal}
+Howard, J. and Ruder, S. (2018).
+\newblock Universal language model fine-tuning for text classification.
+\newblock In {\em Proceedings of the 56th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 328--339,
+  Melbourne, Australia. Association for Computational Linguistics.
+
+\bibitem[Toba et~al., 2023]{toba2023masking}
+Toba, H., Bunyamin, H., Widyaya, J.~E., Wibisono, C., and Haryadi, L.~S.
+  (2023).
+\newblock Masking preprocessing in transfer learning for damage building
+  detection.
+\newblock {\em IAES International Journal of Artificial Intelligence (IJ-AI)},
+  12(2).
+
+\bibitem[Vahadane et~al., 2016]{vahadane2016structure}
+Vahadane, A., Peng, T., Sethi, A., Albarqouni, S., Wang, L., Baust, M.,
+  Steiger, K., Schlitter, A.~M., Esposito, I., and Navab, N. (2016).
+\newblock Structure-preserving color normalization and sparse stain separation
+  for histological images.
+\newblock {\em IEEE transactions on medical imaging}, 35(8):1962--1971.
+
+\end{thebibliography}
