@@ -36,13 +36,6 @@ Bunyamin., H., Toba., H., Meyliana., and Wahyudianingsih., R. (2022).
   Issues in Technology, Engineering and Science - ICE-TES,}, pages 351--357.
   INSTICC, SciTePress.
 
-\bibitem[Bunyamin and Tunys, 2016]{bunyamin2016comparison}
-Bunyamin, H. and Tunys, T. (2016).
-\newblock A comparison of retweet prediction approaches: the superiority of
-  random forest learning method.
-\newblock {\em TELKOMNIKA (Telecommunication Computing Electronics and
-  Control)}, 14(3):1052--1058.
-
 \bibitem[Hofmann, 1999]{hofmann1999probabilistic}
 Hofmann, T. (1999).
 \newblock Probabilistic latent semantic indexing.
@@ -56,6 +49,18 @@ Howard, J. and Ruder, S. (2018).
 \newblock In {\em Proceedings of the 56th Annual Meeting of the Association for
   Computational Linguistics (Volume 1: Long Papers)}, pages 328--339,
   Melbourne, Australia. Association for Computational Linguistics.
+
+\bibitem[Kim et~al., 2016]{kim2016examples}
+Kim, B., Khanna, R., and Koyejo, O.~O. (2016).
+\newblock Examples are not enough, learn to criticize! criticism for
+  interpretability.
+\newblock {\em Advances in neural information processing systems}, 29.
+
+\bibitem[Miller, 2019]{miller2019explanation}
+Miller, T. (2019).
+\newblock Explanation in artificial intelligence: Insights from the social
+  sciences.
+\newblock {\em Artificial intelligence}, 267:1--38.
 
 \bibitem[Toba et~al., 2023]{toba2023masking}
 Toba, H., Bunyamin, H., Widyaya, J.~E., Wibisono, C., and Haryadi, L.~S.

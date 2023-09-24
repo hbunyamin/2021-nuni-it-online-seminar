@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: slides-agnostic-2023.aux
 The style file: apalike.bst
 Database file #1: demo_bib.bib
-You've used 10 entries,
+You've used 11 entries,
             1935 wiz_defined-function locations,
-            542 strings with 6294 characters,
-and the built_in function-call counts, 4706 in all, are:
-= -- 466
-> -- 193
+            548 strings with 6405 characters,
+and the built_in function-call counts, 4951 in all, are:
+= -- 489
+> -- 205
 < -- 10
-+ -- 68
-- -- 66
-* -- 397
-:= -- 780
-add.period$ -- 32
-call.type$ -- 10
-change.case$ -- 83
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 185
-empty$ -- 334
-format.name$ -- 84
-if$ -- 958
++ -- 70
+- -- 70
+* -- 411
+:= -- 834
+add.period$ -- 35
+call.type$ -- 11
+change.case$ -- 90
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 198
+empty$ -- 348
+format.name$ -- 87
+if$ -- 1002
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 53
-num.names$ -- 30
-pop$ -- 77
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 33
+pop$ -- 82
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 90
 quote$ -- 0
-skip$ -- 143
+skip$ -- 154
 stack$ -- 0
-substring$ -- 344
-swap$ -- 40
+substring$ -- 339
+swap$ -- 41
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 66
 warning$ -- 0
-while$ -- 38
+while$ -- 40
 width$ -- 0
-write$ -- 136
+write$ -- 149

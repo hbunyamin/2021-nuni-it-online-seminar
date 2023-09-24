@@ -41,9 +41,9 @@
 \renewcommand{\appendixname}{\texorpdfstring{\translate{appendix}}{appendix}}
 
 % if loaded after begin{document} a warning will appear: "pdfauthor already used"
-\title[Research Background]{Research Background}
+\title[Research Background]{Interpretable Machine Learning}
 \author{Hendra Bunyamin}
-% \subtitle[subtitle]{Subtitle}
+ %\subtitle[subtitle]{Interpretable Models \& Agnostic Methods}
 \institute{Maranatha Christian University}
 \date{\today}
 
@@ -72,56 +72,12 @@
 \section{What is Interpretability?}
 \begin{frame}{What is Interpretability? }
     \begin{vfilleditems}
-	\item 
+	\item Interpretability is the degree to which a human can understand the cause of a decision  \citep{miller2019explanation}.
+	\item Interpretability is the degree to which a human can consistently predict the model's result \citep{kim2016examples}.
 	\end{vfilleditems}
 \end{frame}
 
-\begin{frame}{Topic Clustering}
-    \begin{vfilleditems}
-	\item \citet{bunyamin2017automatic} explore the \textbf{application of a topic clustering model on students' final project abstracts}. 
-	\item The topic clustering algorithm follows Latent Dirichlet Allocation (LDA) which is an expansion model from probabilistic latent semantic analysis (PLSA) \citep{hofmann1999probabilistic}.
-	\item The results of clustering are obscure and difficult to interpret. We believe the clustering model is not suitable for this problem.
-\end{vfilleditems}	
-\end{frame}
 
-\begin{frame}{Text Classification}
-    \begin{vfilleditems}
-	\item \citet{bunyamin2019topic}  study \textbf{text classification problem} from students' final projects. Specifically, the features are extracted from abstracts, chapter 1, chapter 2, and chapter 3.
-	\item Ridge classifier, passive-aggressive,  linear Support Vector Classifier (SVC), and Stochastic Gradient Descent (SGD) classifier gain the highest accuracy among all 12 text classification models. Surprisingly, the deep learning models  are unable to attain results as comparable as the ones of linear models.
-\end{vfilleditems}		
-\end{frame}
-
-\begin{frame}{Language Model $\Rightarrow$ Text Classification}
-	\begin{vfilleditems}
-		\item \citet{bunyamin2021utilizing}  investigates an adoption of the transfer learning technique named Universal Language Model for Fine-tuning (ULMFiT) \citep{howard-ruder-2018-universal}.
-		\item  The experiments show that ULMFiT achieves high accuracy ($\approx 93\%$); additionally, this high performance can mitigate the overfitting symptom.
-	\end{vfilleditems}		
-\end{frame}
-
-\section{Structured Data: Time Series}
-\begin{frame}{Classical vs. Deep Learning}
-	\begin{vfilleditems}
-	\item \citet{Bunyamin_2021} study the utilization of classical and deep learning time series prediction models in the case of Indonesian economic growth. 
-	\item The dataset comprises World Development Indicators of Indonesia from 1962 to 2016. 
-	\item Through experiments, Seasonal Autoregressive Integrated Average (SARIMA) and Convolutional LSTM give the best performance based on Root-Mean-Square Error (RMSE).
-\end{vfilleditems}			
-\end{frame}
-
-\section{Unstructured Data: Images}
-\begin{frame}{Breast Cancer Histopathological Image Classification}
-	\begin{vfilleditems}
-		\item \citet{ice-tes22} implement \textbf{Progressive Resizing Approach} (PRA). The idea is very simple, that is to start training using small images and finally end the training using large images.
-		\item Another highlight of the research is the use of \textbf{Vahadane technique}  \citep{vahadane2016structure} which solves both stain separation and color normalization problems.
-		\item The result shows that PRA achieves a promising performance measured by $F_1$ score.
-	\end{vfilleditems}			
-\end{frame}
-
-\begin{frame}{Building Damage Image Segmentation}
-	\begin{vfilleditems}
-	\item \citet{toba2023masking}  develop \textbf{transfer learning models} using low-cost masking pre-processing in the experimental building damage (xBD) dataset, a large-scale dataset for advancing building damage assessment.
-	\item The experiments show that ResNet-34 is the best with an F1 score of 71.93\%, and an intersection over union (IoU) of 66.72\%.
-\end{vfilleditems}				
-\end{frame}
 
 
 %\section{Aspect ratio}
