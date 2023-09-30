@@ -1,6 +1,0 @@
-\frametitle{Change Page word}
-If you wish to remove or change the word \emph{Page}
-    in the footer, change the value with
-    \begin{verbatim}
-    \renewcommand{\pageword}{Seite}
-  \end{verbatim}
