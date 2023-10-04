@@ -34,6 +34,11 @@ We extract the features columns just like in the slides as follows:
 bike_to_interpreted <- bike[c("cnt", "season", "holiday", "days_since_2011", 
                          "workingday", "weathersit", "temp", "hum", "windspeed")]
 ```
+
+Let's see the first five rows in `bike_to_interpreted`.
+```{r}
+head(bike_to_interpreted)
+```
       
 We summarize the `bike_to_interpreted` dataset.    
 ```{r message=FALSE, warning=FALSE, highlight=TRUE}
